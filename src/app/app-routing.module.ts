@@ -5,12 +5,18 @@ import { Page1Component } from './page1/page1.component';
 import { Page2Component } from './page2/page2.component';
 import { Page3Component } from './page3/page3.component';
 
-const routes: Routes = [
-  { path: '1', component: Page1Component },
-  { path: '2', component: Page2Component },
-  { path: '3', component: Page3Component },
+import { ProjectComponent } from './project/project.component';
+import { EducationComponent } from './education/education.component';
+import { ContactMeComponent } from './contact-me/contact-me.component';
+import { AchievementComponent } from './achievement/achievement.component';
 
-  { path: '', redirectTo: '/1', pathMatch: 'full' },
+const routes: Routes = [
+  { path: 'project', component: ProjectComponent },
+  { path: 'education', component: EducationComponent },
+  { path: 'achievement', component: AchievementComponent },
+  { path: 'contact-me', component: ContactMeComponent },
+
+  { path: '', redirectTo: '/project', pathMatch: 'full' },
 ];
 
 @NgModule({
