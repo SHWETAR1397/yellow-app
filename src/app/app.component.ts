@@ -8,6 +8,13 @@ import { Router } from '@angular/router';
 })
 export class AppComponent {
   title = 'yellow-app';
+  // linksList = ['Projects', 'Education', 'Achievement', 'Contact Me'];
+  linksList = [
+    { title: 'Projects', link: 'project' },
+    { title: 'Education', link: 'education' },
+    { title: 'Achievement', link: 'achievement' },
+    { title: 'Contact me', link: 'contact-me' },
+  ];
 
   constructor(private router: Router) {}
 

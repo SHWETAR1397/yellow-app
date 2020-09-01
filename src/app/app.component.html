@@ -5,28 +5,10 @@
     <div class="col d-flex align-items-center justify-content-end">
       <button
         class="btn btn-sm btn-secondary mr-1"
-        (click)="gotoRoute('project')"
+        (click)="gotoRoute(item.link)"
+        *ngFor="let item of linksList"
       >
-        Projects
-      </button>
-      <button
-        class="btn btn-sm btn-secondary mr-1"
-        (click)="gotoRoute('education')"
-      >
-        Education
-      </button>
-
-      <button
-        class="btn btn-sm btn-secondary mr-1"
-        (click)="gotoRoute('achievement')"
-      >
-        Achievement
-      </button>
-      <button
-        class="btn btn-sm btn-secondary"
-        (click)="gotoRoute('contact-me')"
-      >
-        Contact Me
+        {{ item.title }}
       </button>
     </div>
   </div>
