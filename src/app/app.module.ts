@@ -9,6 +9,7 @@ import { Page3Component } from './page3/page3.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { ProjectComponent } from './project/project.component';
 import { EducationComponent } from './education/education.component';
+import { ContactMeComponent } from './contact-me/contact-me.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { EducationComponent } from './education/education.component';
     Page3Component,
     ProjectComponent,
     EducationComponent,
+    ContactMeComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FontAwesomeModule],
   providers: [],
