@@ -8,17 +8,9 @@ import { Page2Component } from './page2/page2.component';
 import { Page3Component } from './page3/page3.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    Page1Component,
-    Page2Component,
-    Page3Component
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  declarations: [AppComponent, Page1Component, Page2Component, Page3Component],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
