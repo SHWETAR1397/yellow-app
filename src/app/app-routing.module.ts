@@ -9,6 +9,7 @@ import { ProjectComponent } from './project/project.component';
 import { EducationComponent } from './education/education.component';
 import { ContactMeComponent } from './contact-me/contact-me.component';
 import { AchievementComponent } from './achievement/achievement.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 const routes: Routes = [
   { path: 'project', component: ProjectComponent },
@@ -17,6 +18,7 @@ const routes: Routes = [
   { path: 'contact-me', component: ContactMeComponent },
 
   { path: '', redirectTo: '/project', pathMatch: 'full' },
+  { path: '**', component: PageNotFoundComponent },
 ];
 
 @NgModule({
