@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "yellow-app"
+    }
+  },
+  "defaultProject": "yellow-app",
+  "cli": {
+    "analytics": false
+  }
 }
