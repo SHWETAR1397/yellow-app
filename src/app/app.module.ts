@@ -11,6 +11,7 @@ import { ProjectComponent } from './project/project.component';
 import { EducationComponent } from './education/education.component';
 import { ContactMeComponent } from './contact-me/contact-me.component';
 import { AchievementComponent } from './achievement/achievement.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { AchievementComponent } from './achievement/achievement.component';
     EducationComponent,
     ContactMeComponent,
     AchievementComponent,
+    PageNotFoundComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FontAwesomeModule],
   providers: [],
